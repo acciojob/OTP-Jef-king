@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+div{
+	border:3px solid black;
+	padding 10px;
+	display:flex;
+	flex-direction:column;
+	width:600px;
+	text-align:center;
+	justify-content:center;
+}
+input{
+	width:30px;
+	height:30px;
+	margin:5px;
+}
+span{
+	display:flex;
+	justify-content:center;
+}
