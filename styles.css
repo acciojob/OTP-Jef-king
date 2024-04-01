@@ -1,42 +1,30 @@
-
-div{
-	border:3px solid black;
-	padding: 20px;
-	display:flex;
-	flex-direction:column;
-	width:500px;
-	text-align:center;
-	justify-content:center;
-	border-radius: 10px;
+/* Add your custom styles here */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+	padding:30px;
+    text-align: center;
+	border:2px solid black;
+	border-radius:15px;
 }
-span{
-	display:flex;
-	justify-content:center;
+
+.code-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
-body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
 
-        .code-container {
-            display: flex;
-            gap: 10px;
-        }
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
 
-        .code {
-            width: 40px;
-            height: 40px;
-            font-size: 18px;
-            text-align: center;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            outline: none;
-        }
-
-        .code:focus {
-            border-color: #007bff;
-        }
+/* Highlight the focused input */
+.code:focus {
+    border-color: #007bff;
+}
