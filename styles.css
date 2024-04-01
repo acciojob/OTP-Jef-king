@@ -1,10 +1,13 @@
-/*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+}
 div{
 	border:3px solid black;
-	padding 10px;
+	padding: 20px;
 	display:flex;
 	flex-direction:column;
-	width:600px;
+	width:500px;
 	text-align:center;
 	justify-content:center;
 	border-radius: 10px;
