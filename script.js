@@ -1,5 +1,5 @@
 function moveToNextInput(input) {
-            const nextInput = input.nextElementSibling;
+            let nextInput = input.nextElementSibling;
             if (input.value && nextInput) {
                 nextInput.focus();
             }
@@ -8,7 +8,7 @@ function moveToNextInput(input) {
         document.querySelectorAll('.code').forEach(input => {
             input.addEventListener('keydown', e => {
                 if (e.key === 'Backspace' && !input.value) {
-                    const prevInput = input.previousElementSibling;
+                    let prevInput = input.previousElementSibling;
                     if (prevInput) {
                         prevInput.focus();
                     }
